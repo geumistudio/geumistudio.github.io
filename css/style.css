@@ -1,0 +1,304 @@
+#top{
+    display: block;
+    position: absolute;
+    top: 0;
+}
+
+.section-util{
+    display: block;
+    position: relative;
+}
+
+.section-locator{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    bottom: 80px;
+}
+
+#main{
+    margin-top: 100px;
+}
+
+#logo img{
+    width: 100%;
+    height: 80;
+}
+
+body{
+    font: normal normal 29px 'Roboto Condensed',sans-serif;
+}
+
+.navbar{
+    font: normal normal 20px 'Roboto Condensed',Arial,sans-serif;
+    background-color: white;
+}
+
+.welcome p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    font-size: 20px;
+    text-align: center;
+}
+
+.section-page{
+    margin-bottom: 50px;
+}
+
+.title-section h4{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.title-section p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*About me*/
+
+.about-me img{
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.about-me p{
+    border: 1px dotted #B5B5B5;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 20px;
+}
+
+.about-me-item{
+    padding: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.about-me-item-center{
+    border-right: solid 1px #dee2e6;
+    border-left: solid 1px #dee2e6;
+}
+
+.about-me-item span{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+    display: block;
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: #4f46e5;
+}
+
+.about-me-item h1{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.about-me-item h3{
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #4f46e5;
+    text-align: center;
+}
+
+.about-me-item p{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.about-me-item ul{
+    list-style: none;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 0px;
+    padding: 0px;
+}
+
+.about-me-item ul li{
+    margin-left: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
+/*works*/
+
+.works{
+    margin-bottom: 20px;
+}
+
+.works .card{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.works .card-body{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.works .card-body:hover{
+    background-color:rgba(0, 0, 0, 0.5);
+    border-radius: 0.25rem;
+}
+
+.card-content{
+    display: none;
+}
+
+.card-content .card-text, .card-content .card-title{
+    font-size: 15px;
+    color: white;
+}
+
+.card-content a{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    text-decoration: none;
+    background-color: transparent;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+.card-content a:hover{
+    background-color: #f5f5f5;
+    color: #4f46e5;
+}
+
+/*Project*/
+
+.project-item{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 50px;
+}
+
+.project-link, .project-link-disable{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.project-link a, .project-link-disable div{
+    text-decoration: none;
+    background-color: #fafafa;
+    display: block;
+    border-radius: 10px;
+    color: grey;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.project-link a:hover{
+    background-color: #f5f5f5;
+    color: #4f46e5;
+}
+
+.main-image img{
+    width: 100%;
+}
+
+.project-item h4{
+    font-weight: bold;
+    text-align: center;
+}
+
+.project-item p{
+    width: 90%;
+    min-height: 60px;
+    font-size: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center; 
+    vertical-align: middle;
+}
+
+.youtube-video{
+    width: 100%;
+    height: 100%
+}
+
+.youtube-video iframe{
+    width: 100%;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*GRID*/
+.grid-item h4{
+    font-size: 22px;
+    text-align: center;
+}
+
+.grid-item P{
+    text-align: center;
+    font-size: 15px;
+}
+
+.grid-item object{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.social-list{
+    list-style: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center; 
+    margin-bottom: 100px;
+}
+
+.social-list li{
+    display: inline-block;
+}
+
+.social-list li a:hover{
+    background-color: #f5f5f5;
+    color: #4f46e5;
+}
+
+.social-list li a{
+    background-color: #fafafa;
+    border-radius: 10px;
+    color: #a3a3a3;
+    display: block;
+    margin: auto;
+    padding: 15px;
+    width: 60px;
+}
+
+
+.footer{
+    background-color: #B5B5B5;
+    min-height: 200px;
+    width: auto;
+}
